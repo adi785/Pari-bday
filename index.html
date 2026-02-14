@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Mekhala ❤️</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 15%;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px #fff; }
+    to { text-shadow: 0 0 20px #ff4da6; }
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff4da6;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff1a8c;
+}
+
+.message {
+    display: none;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    animation: float 5s linear infinite;
+}
+
+@keyframes float {
+    from { transform: translateY(100vh); }
+    to { transform: translateY(-10vh); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Happy Birthday Mekhala 🎂❤️</h1>
+    <p>23 / 02 / 2005</p>
+
+    <button onclick="surprise()">Open My Heart 💖</button>
+
+    <div class="message" id="msg">
+        You are my happiness, my smile, my everything 💕<br>
+        Forever Yours ❤️
+    </div>
+</div>
+
+<audio id="music">
+<source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=romantic-ambient-110963.mp3" type="audio/mp3">
+</audio>
+
+<script>
+function surprise() {
+    document.getElementById("msg").style.display = "block";
+    document.getElementById("music").play();
+
+    for (let i = 0; i < 20; i++) {
+        let heart = document.createElement("div");
+        heart.className = "heart";
+        heart.innerHTML = "❤️";
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.animationDuration = (Math.random() * 3 + 2) + "s";
+        document.body.appendChild(heart);
+    }
+}
+</script>
+
+</body>
+</html>
