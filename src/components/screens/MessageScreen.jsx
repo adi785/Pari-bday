@@ -27,7 +27,7 @@ export default function MessageScreen() {
                 <div className={`cover ${opened ? "opacity-0" : "opacity-100"} pointer-events-none z-10 bg-[#ffedea]!`} />
 
                 <div className="relative px-6 h-56 overflow-y-auto text-foreground">
-                    Happy birthday pari di.!!!U deserve all the happiness, love and smiles today and always... i cant tell u .. kitni baar apne meri help kri h.. bhale hi woh hum dono ki ladyai ho, hum dono k gusse k shikar ho.. ya kuch bhi.. i wont forget.. aapne mujhe itna samjhaya jb bhi hum dono lade h... just bcoz of u.. hmari kaafi ladayia toh kaafi jaldi sort huyi h... Keep being thee amazing person .. our third wheel , spreading joy .. Wishing u endless happiness and success ... aap success ho.. tb hum bhi success ho jayege... Happy bdya to u Pari di !! 💗💗
+                    Happy birthday pari di.!!!U deserve all the happiness, love and smiles today and always... i cant tell u .. kitni baar apne meri help kri h.. bhale hi woh hum dono ki ladyai ho, hum dono k gusse k shikar ho.. ya kuch bhi.. i wont forget.. aapne mujhe itna samjhaya jb bhi hum dono lade h... just bcoz of u.. hmari kaafi ladayia toh kaafi jaldi sort huyi h... Keep being thee amazing person .. our third wheel , spreading joy .. Wishing u endless happiness and success ... aap success ho.. tb hum bhi success ho jayege... Happy bday to u Pari di (FROM YASHWI & ADITYA)!!💕🎂❤💖💗
                 </div>
             </div>
         </div>
