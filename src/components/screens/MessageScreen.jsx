@@ -27,7 +27,7 @@ export default function MessageScreen() {
                 <div className={`cover ${opened ? "opacity-0" : "opacity-100"} pointer-events-none z-10 bg-[#ffedea]!`} />
 
                 <div className="relative px-6 h-56 overflow-y-auto text-foreground">
-                    Happy Birthday, Cutiepie! You deserve all the happiness, love, and smiles in the world today and always. You have this special way of making everything around you brighter, your smile, your kindness, and the way you make people feel truly cared for. I hope your day is filled with laughter, surprises, and moments that make your heart happy. You’re truly one of a kind, and I just want you to know how special you are. Keep being the amazing person you are, spreading joy wherever you go. Wishing you endless happiness, success, and all the sweet things life has to offer. 💗
+                    Happy birthday pari di.!!!U deserve all the happiness, love and smiles today and always... i cant tell u .. kitni baar apne meri help kri h.. bhale hi woh hum dono ki ladyai ho, hum dono k gusse k shikar ho.. ya kuch bhi.. i wont forget.. aapne mujhe itna samjhaya jb bhi hum dono lade h... just bcoz of u.. hmari kaafi ladayia toh kaafi jaldi sort huyi h... Keep being thee amazing person .. our third wheel , spreading joy .. Wishing u endless happiness and success ... aap success ho.. tb hum bhi success ho jayege... Happy bdya to u Pari di !! 💗💗
                 </div>
             </div>
         </div>
